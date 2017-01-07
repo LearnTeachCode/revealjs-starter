@@ -1808,9 +1808,9 @@
 			} );
 
 			// Calculate slide sizes
-			var margin = 70;
+			var margin = 5;
 			var slideSize = getComputedSlideSize();
-			overviewSlideWidth = slideSize.width + margin;
+			overviewSlideWidth = (slideSize.width + margin);
 			overviewSlideHeight = slideSize.height + margin;
 
 			// Reverse in RTL mode
